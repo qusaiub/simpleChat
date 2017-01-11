@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51B67A921D853B70003296C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B67A911D853B70003296C3 /* AppDelegate.swift */; };
+		51B67A941D853B70003296C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B67A931D853B70003296C3 /* ViewController.swift */; };
+		51B67A971D853B70003296C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51B67A951D853B70003296C3 /* Main.storyboard */; };
+		51B67A991D853B70003296C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51B67A981D853B70003296C3 /* Assets.xcassets */; };
+		51B67A9C1D853B70003296C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51B67A9A1D853B70003296C3 /* LaunchScreen.storyboard */; };
+		51D1DF541D8962F600662452 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D1DF531D8962F600662452 /* FriendsViewController.swift */; };
+		51D1DF561D89648F00662452 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D1DF551D89648F00662452 /* Message.swift */; };
+		51D1DF581D8964D700662452 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D1DF571D8964D700662452 /* Friend.swift */; };
+		51D1DF5A1D896E5800662452 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D1DF591D896E5800662452 /* ChatViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51B67A8E1D853B70003296C3 /* Lesson 18 - Simple Chat Http Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 18 - Simple Chat Http Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B67A911D853B70003296C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51B67A931D853B70003296C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51B67A961D853B70003296C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51B67A981D853B70003296C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51B67A9B1D853B70003296C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51B67A9D1D853B70003296C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51D1DF531D8962F600662452 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		51D1DF551D89648F00662452 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		51D1DF571D8964D700662452 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		51D1DF591D896E5800662452 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51B67A8B1D853B70003296C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51B67A851D853B70003296C3 = {
+			isa = PBXGroup;
+			children = (
+				51B67A901D853B70003296C3 /* Lesson 18 - Simple Chat Http Client */,
+				51B67A8F1D853B70003296C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51B67A8F1D853B70003296C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51B67A8E1D853B70003296C3 /* Lesson 18 - Simple Chat Http Client.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51B67A901D853B70003296C3 /* Lesson 18 - Simple Chat Http Client */ = {
+			isa = PBXGroup;
+			children = (
+				51B67A911D853B70003296C3 /* AppDelegate.swift */,
+				51B67A931D853B70003296C3 /* ViewController.swift */,
+				51B67A951D853B70003296C3 /* Main.storyboard */,
+				51B67A981D853B70003296C3 /* Assets.xcassets */,
+				51B67A9A1D853B70003296C3 /* LaunchScreen.storyboard */,
+				51B67A9D1D853B70003296C3 /* Info.plist */,
+				51D1DF531D8962F600662452 /* FriendsViewController.swift */,
+				51D1DF551D89648F00662452 /* Message.swift */,
+				51D1DF571D8964D700662452 /* Friend.swift */,
+				51D1DF591D896E5800662452 /* ChatViewController.swift */,
+			);
+			path = "Lesson 18 - Simple Chat Http Client";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51B67A8D1D853B70003296C3 /* Lesson 18 - Simple Chat Http Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51B67AA01D853B70003296C3 /* Build configuration list for PBXNativeTarget "Lesson 18 - Simple Chat Http Client" */;
+			buildPhases = (
+				51B67A8A1D853B70003296C3 /* Sources */,
+				51B67A8B1D853B70003296C3 /* Frameworks */,
+				51B67A8C1D853B70003296C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lesson 18 - Simple Chat Http Client";
+			productName = "Lesson 18 - Simple Chat Http Client";
+			productReference = 51B67A8E1D853B70003296C3 /* Lesson 18 - Simple Chat Http Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51B67A861D853B70003296C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "HackerU LTD";
+				TargetAttributes = {
+					51B67A8D1D853B70003296C3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 51B67A891D853B70003296C3 /* Build configuration list for PBXProject "Lesson 18 - Simple Chat Http Client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51B67A851D853B70003296C3;
+			productRefGroup = 51B67A8F1D853B70003296C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51B67A8D1D853B70003296C3 /* Lesson 18 - Simple Chat Http Client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51B67A8C1D853B70003296C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B67A9C1D853B70003296C3 /* LaunchScreen.storyboard in Resources */,
+				51B67A991D853B70003296C3 /* Assets.xcassets in Resources */,
+				51B67A971D853B70003296C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51B67A8A1D853B70003296C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B67A941D853B70003296C3 /* ViewController.swift in Sources */,
+				51D1DF561D89648F00662452 /* Message.swift in Sources */,
+				51D1DF581D8964D700662452 /* Friend.swift in Sources */,
+				51D1DF541D8962F600662452 /* FriendsViewController.swift in Sources */,
+				51D1DF5A1D896E5800662452 /* ChatViewController.swift in Sources */,
+				51B67A921D853B70003296C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		51B67A951D853B70003296C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51B67A961D853B70003296C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51B67A9A1D853B70003296C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51B67A9B1D853B70003296C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51B67A9E1D853B70003296C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51B67A9F1D853B70003296C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51B67AA11D853B70003296C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lesson 18 - Simple Chat Http Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "il.co.hackeru.Lesson-18---Simple-Chat-Http-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		51B67AA21D853B70003296C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lesson 18 - Simple Chat Http Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "il.co.hackeru.Lesson-18---Simple-Chat-Http-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51B67A891D853B70003296C3 /* Build configuration list for PBXProject "Lesson 18 - Simple Chat Http Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B67A9E1D853B70003296C3 /* Debug */,
+				51B67A9F1D853B70003296C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51B67AA01D853B70003296C3 /* Build configuration list for PBXNativeTarget "Lesson 18 - Simple Chat Http Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B67AA11D853B70003296C3 /* Debug */,
+				51B67AA21D853B70003296C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51B67A861D853B70003296C3 /* Project object */;
+}
