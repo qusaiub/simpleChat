@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8458A3BA1E59B4C500E5A0A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458A3B91E59B4C500E5A0A3 /* AppDelegate.swift */; };
+		8458A3BC1E59B4C500E5A0A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458A3BB1E59B4C500E5A0A3 /* ViewController.swift */; };
+		8458A3C11E59B4C500E5A0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8458A3C01E59B4C500E5A0A3 /* Assets.xcassets */; };
+		8458A3C41E59B4C500E5A0A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8458A3C21E59B4C500E5A0A3 /* LaunchScreen.storyboard */; };
+		8458A3CF1E59B4C500E5A0A3 /* qusaiappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458A3CE1E59B4C500E5A0A3 /* qusaiappTests.swift */; };
+		8458A3DA1E59B76900E5A0A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8458A3D91E59B76900E5A0A3 /* Main.storyboard */; };
+		8458A3DC1E59B89200E5A0A3 /* indie_music.json in Resources */ = {isa = PBXBuildFile; fileRef = 8458A3DB1E59B89200E5A0A3 /* indie_music.json */; };
+		8458A3DF1E59B90B00E5A0A3 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458A3DE1E59B90B00E5A0A3 /* AlbumCell.swift */; };
+		8458A3E11E59B92C00E5A0A3 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458A3E01E59B92C00E5A0A3 /* Album.swift */; };
+		8458A3E51E59C31A00E5A0A3 /* navi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458A3E41E59C31A00E5A0A3 /* navi.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8458A3CB1E59B4C500E5A0A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8458A3AE1E59B4C400E5A0A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8458A3B51E59B4C500E5A0A3;
+			remoteInfo = qusaiapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8458A3B61E59B4C500E5A0A3 /* qusaiapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qusaiapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8458A3B91E59B4C500E5A0A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8458A3BB1E59B4C500E5A0A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8458A3C01E59B4C500E5A0A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8458A3C31E59B4C500E5A0A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8458A3C51E59B4C500E5A0A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8458A3CA1E59B4C500E5A0A3 /* qusaiappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qusaiappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8458A3CE1E59B4C500E5A0A3 /* qusaiappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qusaiappTests.swift; sourceTree = "<group>"; };
+		8458A3D01E59B4C500E5A0A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8458A3D91E59B76900E5A0A3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8458A3DB1E59B89200E5A0A3 /* indie_music.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = indie_music.json; sourceTree = "<group>"; };
+		8458A3DE1E59B90B00E5A0A3 /* AlbumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		8458A3E01E59B92C00E5A0A3 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		8458A3E41E59C31A00E5A0A3 /* navi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = navi.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8458A3B31E59B4C500E5A0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8458A3C71E59B4C500E5A0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8458A3AD1E59B4C400E5A0A3 = {
+			isa = PBXGroup;
+			children = (
+				8458A3B81E59B4C500E5A0A3 /* qusaiapp */,
+				8458A3CD1E59B4C500E5A0A3 /* qusaiappTests */,
+				8458A3B71E59B4C500E5A0A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8458A3B71E59B4C500E5A0A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8458A3B61E59B4C500E5A0A3 /* qusaiapp.app */,
+				8458A3CA1E59B4C500E5A0A3 /* qusaiappTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8458A3B81E59B4C500E5A0A3 /* qusaiapp */ = {
+			isa = PBXGroup;
+			children = (
+				8458A3B91E59B4C500E5A0A3 /* AppDelegate.swift */,
+				8458A3BB1E59B4C500E5A0A3 /* ViewController.swift */,
+				8458A3C01E59B4C500E5A0A3 /* Assets.xcassets */,
+				8458A3C21E59B4C500E5A0A3 /* LaunchScreen.storyboard */,
+				8458A3DE1E59B90B00E5A0A3 /* AlbumCell.swift */,
+				8458A3D91E59B76900E5A0A3 /* Main.storyboard */,
+				8458A3DD1E59B8A000E5A0A3 /* Resource */,
+				8458A3C51E59B4C500E5A0A3 /* Info.plist */,
+				8458A3E01E59B92C00E5A0A3 /* Album.swift */,
+				8458A3E41E59C31A00E5A0A3 /* navi.swift */,
+			);
+			path = qusaiapp;
+			sourceTree = "<group>";
+		};
+		8458A3CD1E59B4C500E5A0A3 /* qusaiappTests */ = {
+			isa = PBXGroup;
+			children = (
+				8458A3CE1E59B4C500E5A0A3 /* qusaiappTests.swift */,
+				8458A3D01E59B4C500E5A0A3 /* Info.plist */,
+			);
+			path = qusaiappTests;
+			sourceTree = "<group>";
+		};
+		8458A3DD1E59B8A000E5A0A3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8458A3DB1E59B89200E5A0A3 /* indie_music.json */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8458A3B51E59B4C500E5A0A3 /* qusaiapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8458A3D31E59B4C500E5A0A3 /* Build configuration list for PBXNativeTarget "qusaiapp" */;
+			buildPhases = (
+				8458A3B21E59B4C500E5A0A3 /* Sources */,
+				8458A3B31E59B4C500E5A0A3 /* Frameworks */,
+				8458A3B41E59B4C500E5A0A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qusaiapp;
+			productName = qusaiapp;
+			productReference = 8458A3B61E59B4C500E5A0A3 /* qusaiapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8458A3C91E59B4C500E5A0A3 /* qusaiappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8458A3D61E59B4C500E5A0A3 /* Build configuration list for PBXNativeTarget "qusaiappTests" */;
+			buildPhases = (
+				8458A3C61E59B4C500E5A0A3 /* Sources */,
+				8458A3C71E59B4C500E5A0A3 /* Frameworks */,
+				8458A3C81E59B4C500E5A0A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8458A3CC1E59B4C500E5A0A3 /* PBXTargetDependency */,
+			);
+			name = qusaiappTests;
+			productName = qusaiappTests;
+			productReference = 8458A3CA1E59B4C500E5A0A3 /* qusaiappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8458A3AE1E59B4C400E5A0A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Mfortis;
+				TargetAttributes = {
+					8458A3B51E59B4C500E5A0A3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					8458A3C91E59B4C500E5A0A3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8458A3B51E59B4C500E5A0A3;
+					};
+				};
+			};
+			buildConfigurationList = 8458A3B11E59B4C400E5A0A3 /* Build configuration list for PBXProject "qusaiapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8458A3AD1E59B4C400E5A0A3;
+			productRefGroup = 8458A3B71E59B4C500E5A0A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8458A3B51E59B4C500E5A0A3 /* qusaiapp */,
+				8458A3C91E59B4C500E5A0A3 /* qusaiappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8458A3B41E59B4C500E5A0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8458A3DA1E59B76900E5A0A3 /* Main.storyboard in Resources */,
+				8458A3DC1E59B89200E5A0A3 /* indie_music.json in Resources */,
+				8458A3C41E59B4C500E5A0A3 /* LaunchScreen.storyboard in Resources */,
+				8458A3C11E59B4C500E5A0A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8458A3C81E59B4C500E5A0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8458A3B21E59B4C500E5A0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8458A3BC1E59B4C500E5A0A3 /* ViewController.swift in Sources */,
+				8458A3BA1E59B4C500E5A0A3 /* AppDelegate.swift in Sources */,
+				8458A3DF1E59B90B00E5A0A3 /* AlbumCell.swift in Sources */,
+				8458A3E11E59B92C00E5A0A3 /* Album.swift in Sources */,
+				8458A3E51E59C31A00E5A0A3 /* navi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8458A3C61E59B4C500E5A0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8458A3CF1E59B4C500E5A0A3 /* qusaiappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8458A3CC1E59B4C500E5A0A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8458A3B51E59B4C500E5A0A3 /* qusaiapp */;
+			targetProxy = 8458A3CB1E59B4C500E5A0A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8458A3C21E59B4C500E5A0A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8458A3C31E59B4C500E5A0A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8458A3D11E59B4C500E5A0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8458A3D21E59B4C500E5A0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8458A3D41E59B4C500E5A0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = qusaiapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fortis.qusaiapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8458A3D51E59B4C500E5A0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = qusaiapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fortis.qusaiapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8458A3D71E59B4C500E5A0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = qusaiappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fortis.qusaiappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qusaiapp.app/qusaiapp";
+			};
+			name = Debug;
+		};
+		8458A3D81E59B4C500E5A0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = qusaiappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fortis.qusaiappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qusaiapp.app/qusaiapp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8458A3B11E59B4C400E5A0A3 /* Build configuration list for PBXProject "qusaiapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8458A3D11E59B4C500E5A0A3 /* Debug */,
+				8458A3D21E59B4C500E5A0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8458A3D31E59B4C500E5A0A3 /* Build configuration list for PBXNativeTarget "qusaiapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8458A3D41E59B4C500E5A0A3 /* Debug */,
+				8458A3D51E59B4C500E5A0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8458A3D61E59B4C500E5A0A3 /* Build configuration list for PBXNativeTarget "qusaiappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8458A3D71E59B4C500E5A0A3 /* Debug */,
+				8458A3D81E59B4C500E5A0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8458A3AE1E59B4C400E5A0A3 /* Project object */;
+}

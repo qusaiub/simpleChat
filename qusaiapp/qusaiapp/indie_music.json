@@ -1,0 +1,86 @@
+[
+    {
+        "album": "21",
+        "artist": "Adele",
+        "image": "http://artsfuse.org/wp-content/uploads/2011/04/Adele-21-Album-Cover-Art-500x500.png",
+        "genre": "Soul",
+        "songs":
+        [
+            {
+                "song": "Set fire to rain",
+                "duration": "04:01"
+            },
+            {
+                "song": "Rolling in the Deep",
+                "duration": "03:49"
+            },
+            {
+                "song": "Rumour Has It",
+                "duration": "03:43"
+            }
+        ]
+    },
+    {
+        "album": "Xscape",
+        "artist": "Michael Jackson",
+        "image": "http://illusion.scene360.com/wp-content/uploads/2014/10/computergraphics-album-covers-2014-15.jpg",
+        "genre": "Pop",
+        "songs":
+        [
+            {
+                "song": "A place with no name",
+                "duration": "05:05"
+            },
+            {
+                "song": "Blue gangsta",
+                "duration": "04:14"
+            },
+            {
+                "song": "Chicago",
+                "duration": "04:05"
+            }
+        ]
+    },
+    {
+        "album": "Revolver",
+        "artist": "Beatles",
+        "image": "https://en.wikipedia.org/wiki/Revolver_(Beatles_album)#/media/File:Revolver.jpg",
+        "genre": "Rock",
+        "songs":
+        [
+            {
+                "song": "I Want to Tell You",
+                "duration": "02:32"
+            },
+            {
+                "song": "Yellow Submarine",
+                "duration": "02:41"
+            },
+            {
+                "song": "Taxman",
+                "duration": "02:38"
+            },
+            {
+                "song": "Love you to",
+                "duration": "03:03"
+            }
+        ]
+    },
+    {
+        "album": "No angel",
+        "artist": "Dido",
+        "image": "https://fanart.tv/fanart/music/d1353a0c-26fb-4318-a116-defde9c7c9ad/albumcover/no-angel-534456bb3b4cd.jpg",
+        "genre": "Pop",
+        "songs":
+        [
+            {
+                "song": "Hunter",
+                "duration": "03:57"
+            },
+            {
+                "song": "Here with me",
+                "duration": "04:14"
+            }
+        ]
+    }
+]
