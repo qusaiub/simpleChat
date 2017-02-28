@@ -53,6 +53,7 @@ public class MainServlet extends javax.servlet.http.HttpServlet {
         try {
             JSONObject jsonRequest = new JSONObject(stringBuilder.toString());
             String action = jsonRequest.getString("action");
+            System.out.println("hey");
 
             boolean success = false;
             String userName = jsonRequest.getString("userName");
@@ -64,8 +65,10 @@ public class MainServlet extends javax.servlet.http.HttpServlet {
                         success = login(userName, jsonRequest.getString("password"));
                         break;
                     case "signup":
+                        System.out.println("heyRR");
                         success = signUp(userName, jsonRequest.getString("password"), jsonRequest.getString("emil"), jsonRequest.getString("phone"));
-                        break;
+                        System.out.println(success);
+                         break;
                     case "getMessages":
                         if (login(userName, jsonRequest.getString("password"))) {
                             success = true;
@@ -223,6 +226,7 @@ public class MainServlet extends javax.servlet.http.HttpServlet {
     }
 
     private boolean signUp(String userName, String password,String emil,String phone){
+        System.out.println("hey real");
         User u = new User(userName, password, emil, phone );
         boolean success = false;
         synchronized (users){
